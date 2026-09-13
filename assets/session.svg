@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="714" height="254" viewBox="0 0 714 254">
+<svg xmlns="http://www.w3.org/2000/svg" width="714" height="410" viewBox="0 0 714 410">
 <defs><filter id="glow" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="1.1" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
 <style>text{font-family:'JetBrains Mono','Fira Code','Cascadia Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace;font-size:12.0px;fill:#c9d1d9;white-space:pre}.bg{fill:#0b0d12}.panel{fill:#0f1219}.border{fill:#262b36}.fg{fill:#c9d1d9}.dim{fill:#4b5263}.dim2{fill:#6c7386}.black{fill:#1c1f26}.red{fill:#ff5c57}.green{fill:#5af78e}.yellow{fill:#f3f99d}.blue{fill:#57c7ff}.magenta{fill:#ff6ac1}.cyan{fill:#9aedfe}.white{fill:#f1f1f0}.bblack{fill:#686868}.bred{fill:#ff8785}.bgreen{fill:#8dffb4}.byellow{fill:#fbfdc8}.bblue{fill:#8fdbff}.bmagenta{fill:#ff9bd6}.bcyan{fill:#c7f5ff}.bwhite{fill:#ffffff}.orange{fill:#ffb86c}.dred{fill:#8c2f2b}.dgreen{fill:#2f6b45}.dblue{fill:#2b5c8c}.dyellow{fill:#8c8532}.dcyan{fill:#2f7a86}.dmagenta{fill:#8c3a6b}.glow{filter:url(#glow)}.cur{animation:blink 1s steps(1,end) infinite}@keyframes blink{0%{opacity:1}50%{opacity:0}}</style>
-<rect width="714" height="254" fill="#000"/>
+<rect width="714" height="410" fill="#000"/>
 <text x="10" y="14.6" xml:space="preserve"><tspan class="dim2"># visitors' session — run your own command via the links below</tspan></text>
 <text x="10.0" y="34.4" xml:space="preserve"><tspan class="green">saharshbaiju@saharsh</tspan><tspan class="fg">:</tspan><tspan class="blue">~</tspan><tspan class="fg">$ help   </tspan><tspan class="dim"># 2026-09-13 00:00</tspan></text>
 <text x="10.0" y="48.6" xml:space="preserve"><tspan class="fg">available: say &lt;msg&gt; · cowsay &lt;msg&gt; · fortune · neofetch · ping · help</tspan></text>
@@ -16,6 +16,16 @@
 <text x="10.0" y="190.2" xml:space="preserve"><tspan class="cyan">Streak: 1 days (best 5)</tspan></text>
 <text x="10.0" y="204.4" xml:space="preserve"><tspan class="cyan">Shell: issue-sh 1.0</tspan></text>
 <text x="10.0" y="218.5" xml:space="preserve"><tspan class="cyan">Location: Amritapuri, Kerala</tspan></text>
-<text x="10.0" y="246.8" xml:space="preserve"><tspan class="green">visitor@saharsh</tspan><tspan class="fg">:</tspan><tspan class="blue">~</tspan><tspan class="fg">$</tspan></text>
-<rect class="cur" x="147.3" y="235.8" width="7.2" height="13.0" fill="#5af78e"/>
+<text x="10.0" y="246.8" xml:space="preserve"><tspan class="green">saharshbaiju@saharsh</tspan><tspan class="fg">:</tspan><tspan class="blue">~</tspan><tspan class="fg">$ neofetch   </tspan><tspan class="dim"># 2026-09-13 05:43</tspan></text>
+<text x="10.0" y="261.0" xml:space="preserve"><tspan class="green">saharshbaiju@github</tspan></text>
+<text x="10.0" y="275.2" xml:space="preserve"><tspan class="dim2">-------------------</tspan></text>
+<text x="10.0" y="289.3" xml:space="preserve"><tspan class="cyan">OS: saharsh-os (github-actions) x86_64</tspan></text>
+<text x="10.0" y="303.5" xml:space="preserve"><tspan class="cyan">Uptime: 422 days</tspan></text>
+<text x="10.0" y="317.6" xml:space="preserve"><tspan class="cyan">Repos: 31 (1 stars)</tspan></text>
+<text x="10.0" y="331.8" xml:space="preserve"><tspan class="cyan">Contribs: 331 this year</tspan></text>
+<text x="10.0" y="346.0" xml:space="preserve"><tspan class="cyan">Streak: 1 days (best 5)</tspan></text>
+<text x="10.0" y="360.1" xml:space="preserve"><tspan class="cyan">Shell: issue-sh 1.0</tspan></text>
+<text x="10.0" y="374.3" xml:space="preserve"><tspan class="cyan">Location: Amritapuri, Kerala</tspan></text>
+<text x="10.0" y="402.6" xml:space="preserve"><tspan class="green">visitor@saharsh</tspan><tspan class="fg">:</tspan><tspan class="blue">~</tspan><tspan class="fg">$</tspan></text>
+<rect class="cur" x="147.3" y="391.6" width="7.2" height="13.0" fill="#5af78e"/>
 </svg>
