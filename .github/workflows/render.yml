@@ -27,7 +27,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PROFILE_LOGIN: ${{ github.repository_owner }}
-          CONTRIB_GOAL: "1000"
+          CONTRIB_GOAL: ""
         run: python -m gen
       - name: Commit refreshed assets
         run: |

@@ -19,14 +19,14 @@ def main():
     print(f"stats: {st['contribs']} contribs, {st['repos']} repos, uptime {st['uptime_days']}d")
     panels = {
         "screen.svg": lambda: screen.render(st),
-        "boot.svg": lambda: boot.render(st),
-        "torus.svg": lambda: frames_panel(torus.render(), "donut.c", "spinning torus · 60 frames", secs=4.0),
-        "tesseract.svg": lambda: frames_panel(cube.render(), "tesseract.c", "4D hypercube · xw+yz rotation", secs=6.0),
-        "globe.svg": lambda: frames_panel(globe.render(), "globe.c", "@ = Amritapuri, Kerala", secs=8.0),
-        "name.svg": lambda: frames_panel(name3d.render(st["name"].split()[0]), "name3d.c", "5x7 bitmap · extruded · perspective", secs=6.0),
-        "ride.svg": lambda: rider.render(st),
-        "htop.svg": lambda: htop.render(st),
-        "ps.svg": lambda: ps.render(st),
+        "extra-boot.svg": lambda: boot.render(st),
+        "extra-torus.svg": lambda: frames_panel(torus.render(), "donut.c", "spinning torus · 60 frames", secs=4.0),
+        "extra-tesseract.svg": lambda: frames_panel(cube.render(), "tesseract.c", "4D hypercube · xw+yz rotation", secs=6.0),
+        "extra-globe.svg": lambda: frames_panel(globe.render(pin=((st.get("config",{}).get("location") or {}).get("lat"), (st.get("config",{}).get("location") or {}).get("lon"))), "globe.c", "@ = " + (st.get("config",{}).get("location") or {}).get("label", "home"), secs=8.0),
+        "extra-name.svg": lambda: frames_panel(name3d.render(st["headline"]), "name3d.c", "5x7 bitmap · extruded · perspective", secs=6.0),
+        "extra-ride.svg": lambda: rider.render(st),
+        "extra-htop.svg": lambda: htop.render(st),
+        "extra-ps.svg": lambda: ps.render(st),
     }
     args = sys.argv[1:]
     extras = "--extras" in args

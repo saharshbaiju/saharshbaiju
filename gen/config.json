@@ -1,0 +1,13 @@
+{
+  "login": "saharshbaiju",
+  "display_name": "Saharsh Baiju",
+  "headline": "SAHARSH",
+  "tagline": [
+    "systems · backend architecture · RC hardware",
+    "amFOSS @ Amrita · ICPC prep · low-level curious"
+  ],
+  "location": {"lat": 9.09, "lon": 76.49, "label": "Amritapuri, Kerala"},
+  "contrib_goal": 1000,
+  "boot_org": "amFOSS, Amrita",
+  "boot_tags": "systems · backend · RC hardware"
+}

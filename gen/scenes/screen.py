@@ -3,11 +3,9 @@ from html import escape
 from ..svg import P, CW, LH, FS, Grid, rows_svg, frames_group, frames_once, screen
 from . import scramble, globe, htop, ps, blackhole
 
-DESC = [
-    ("white", "Saharsh Baiju"),
-    ("dim2", "systems · backend architecture · RC hardware"),
-    ("dim2", "amFOSS @ Amrita · ICPC prep · low-level curious"),
-]
+def desc(st):
+    cfg = st.get("config", {})
+    return [("white", st["name"])] + [("dim2", t) for t in cfg.get("tagline", [])[:3]]
 
 
 def render(st):
@@ -17,13 +15,14 @@ def render(st):
     y = pad
 
     # 1. name, decoded from noise -------------------------------------------
-    name_frames = scramble.render(st["name"].split()[0], n=56)
+    name_frames = scramble.render(st["headline"], n=56)
     c, b = frames_once(name_frames, pad, y, "n", 5.0)
     css.append(c); body.append(b)
     y += name_frames[0].h * LH + LH * 0.5
 
     # 2. left: description + htop ; right: globe --------------------------
     top = y
+    DESC = desc(st)
     g = Grid(48, len(DESC) + 1)
     for i, (col, line) in enumerate(DESC):
         g.text(0, i, line[:48], col)
@@ -32,7 +31,8 @@ def render(st):
     c, b, h = htop.body(st, pad, y)
     css.append(c); body.append(b)
     y += h
-    gl = globe.render(n=108, R=9, orb=1.3)
+    loc = st.get("config", {}).get("location") or {}
+    gl = globe.render(n=108, R=9, orb=1.3, pin=(loc.get("lat"), loc.get("lon")) if loc else None)
     gx = W - pad - gl[0].w * CW
     c, b = frames_group(gl, gx, top - LH * 0.5, "g", 9.0, glow=False)
     css.append(c); body.append(b)

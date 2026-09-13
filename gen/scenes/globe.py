@@ -17,7 +17,7 @@ def is_land(lat, lon):
     return MASK[j][i] == "#"
 
 
-def render(n=72, R=11, orb=1.3):
+def render(n=72, R=11, orb=1.3, pin=PIN):
     H, W = 2 * R + 3, int(2 * (orb * 2 * R + 3))
     rnd = random.Random(7)
     stars = [(rnd.randrange(7, W), rnd.randrange(H), rnd.choice(".'*+")) for _ in range(28)]
@@ -56,12 +56,15 @@ def render(n=72, R=11, orb=1.3):
                 col, ch = (LAND if is_land(lat, lon) else SEA)[idx]
                 g.put(c, r, ch, col)
         # "you are here" pin
-        plat, plon = PIN
-        lonr = math.radians(plon + math.degrees(spin))
-        latr = math.radians(plat)
-        px, py1, pz1 = math.cos(latr) * math.sin(lonr), math.sin(latr), math.cos(latr) * math.cos(lonr)
-        py = py1 * math.cos(tilt) + pz1 * math.sin(tilt)
-        pz = -py1 * math.sin(tilt) + pz1 * math.cos(tilt)
+        plat, plon = pin if pin and pin[0] is not None else (None, None)
+        if plat is None:
+            pz = -1.0
+        else:
+            lonr = math.radians(plon + math.degrees(spin))
+            latr = math.radians(plat)
+            px, py1, pz1 = math.cos(latr) * math.sin(lonr), math.sin(latr), math.cos(latr) * math.cos(lonr)
+            py = py1 * math.cos(tilt) + pz1 * math.sin(tilt)
+            pz = -py1 * math.sin(tilt) + pz1 * math.cos(tilt)
         if pz > 0.05:
             g.put(int(cx + px * 2 * R), int(cy - py * R), "@", "red")
         # satellite: inclined circular orbit, two revolutions per loop,

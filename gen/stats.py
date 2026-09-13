@@ -3,8 +3,10 @@ from __future__ import annotations
 import json, os, subprocess, urllib.request, datetime as dt
 from collections import Counter
 
-LOGIN = os.environ.get("PROFILE_LOGIN", "saharshbaiju")
-GOAL = int(os.environ.get("CONTRIB_GOAL", "1000"))
+CONFIG_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "config.json")
+CONFIG = json.load(open(CONFIG_PATH)) if os.path.exists(CONFIG_PATH) else {}
+LOGIN = os.environ.get("PROFILE_LOGIN") or CONFIG.get("login", "octocat")
+GOAL = int(os.environ.get("CONTRIB_GOAL") or CONFIG.get("contrib_goal", 1000))
 
 Q = """
 query($login:String!, $from:DateTime!, $to:DateTime!) {
@@ -80,7 +82,9 @@ def shape(u, year):
     year_start = dt.datetime(year, 1, 1, tzinfo=dt.timezone.utc)
     year_len = (dt.datetime(year + 1, 1, 1, tzinfo=dt.timezone.utc) - year_start).days
     return {
-        "login": u["login"], "name": u["name"] or u["login"], "year": year,
+        "config": CONFIG,
+        "login": u["login"], "name": CONFIG.get("display_name") or u["name"] or u["login"], "year": year,
+        "headline": CONFIG.get("headline") or (u["name"] or u["login"]).split()[0],
         "created": created.date().isoformat(),
         "uptime_days": (now - created).days,
         "followers": u["followers"]["totalCount"], "following": u["following"]["totalCount"],

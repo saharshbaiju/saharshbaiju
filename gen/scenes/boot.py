@@ -9,7 +9,7 @@ def render(st):
         ("dim2", "", f"Booting saharsh-os 6.{st['year']%100}.{st['own_repos']}-generic (gcc 14.2) #1 SMP PREEMPT_DYNAMIC"),
         ("green", "0.000000", f"Linux version {st['year']}.{st['contribs']} ({st['login']}@github) ..."),
         ("green", "0.000420", f"Command line: root=/dev/{st['login']} ro quiet splash init=/sbin/build"),
-        ("green", "0.001337", f"CPU0: {st['name']} @ amFOSS, Amrita  [systems · backend · RC hardware]"),
+        ("green", "0.001337", f"CPU0: {st['name']} @ {st.get('config',{}).get('boot_org','github')}  [{st.get('config',{}).get('boot_tags','builder')}]"),
         ("green", "0.002048", f"Memory: {st['repos']} repos ({st['own_repos']} own, {st['forks']} forks), {st['stars']} stars, {st['followers']} followers"),
         ("green", "0.004096", f"uptime: {up} days since {st['created']}  ({up//365}y {up%365}d)"),
         ("green", "0.008192", "Loading modules: " + " ".join(l.lower().replace("+", "p").replace("#", "sharp") for l, _, _ in st["langs"][:7]) + "  [ OK ]"),
