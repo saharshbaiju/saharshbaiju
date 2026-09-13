@@ -17,23 +17,22 @@ def main():
         st = fetch()
         if cache: json.dump(st, open(cache, "w"))
     print(f"stats: {st['contribs']} contribs, {st['repos']} repos, uptime {st['uptime_days']}d")
-    panels = {
-        "screen.svg": lambda: screen.render(st),
-        "boot.svg": lambda: boot.render(st),
-        "torus.svg": lambda: frames_panel(torus.render(), "donut.c", "spinning torus · 60 frames", secs=4.0),
-        "tesseract.svg": lambda: frames_panel(cube.render(), "tesseract.c", "4D hypercube · xw+yz rotation", secs=6.0),
-        "globe.svg": lambda: frames_panel(globe.render(), "globe.c", "@ = Amritapuri, Kerala", secs=8.0),
-        "name.svg": lambda: frames_panel(name3d.render(st["name"].split()[0]), "name3d.c", "5x7 bitmap · extruded · perspective", secs=6.0),
-        "ride.svg": lambda: rider.render(st),
-        "htop.svg": lambda: htop.render(st),
-        "ps.svg": lambda: ps.render(st),
+    panels = {**{k: (lambda fn=fn: fn(st)) for k, fn in screen.SECTIONS.items()},
+        "extra-boot.svg": lambda: boot.render(st),
+        "extra-torus.svg": lambda: frames_panel(torus.render(), "donut.c", "spinning torus · 60 frames", secs=4.0),
+        "extra-tesseract.svg": lambda: frames_panel(cube.render(), "tesseract.c", "4D hypercube · xw+yz rotation", secs=6.0),
+        "extra-globe.svg": lambda: frames_panel(globe.render(), "globe.c", "@ = Amritapuri, Kerala", secs=8.0),
+        "extra-name.svg": lambda: frames_panel(name3d.render(st["name"].split()[0]), "name3d.c", "5x7 bitmap · extruded · perspective", secs=6.0),
+        "extra-ride.svg": lambda: rider.render(st),
+        "extra-htop.svg": lambda: htop.render(st),
+        "extra-ps.svg": lambda: ps.render(st),
     }
     args = sys.argv[1:]
     extras = "--extras" in args
     only = [a for a in args if not a.startswith("--")]
     for name, fn in panels.items():
         if only and name.split(".")[0] not in only: continue
-        if not only and not extras and name != "screen.svg": continue
+        if not only and not extras and name not in screen.SECTIONS: continue
         t = time.time()
         svg = fn()
         with open(os.path.join(OUT, name), "w") as f:

@@ -1,0 +1,5 @@
+[
+ {"user": "saharshbaiju", "cmd": "help", "issue": 0, "ts": "2026-09-13 00:00",
+  "out": [["fg", "available: say <msg> · cowsay <msg> · fortune · neofetch · ping · help"],
+          ["dim2", "open an issue titled `$ <command>` and it runs on this profile"]]}
+]
