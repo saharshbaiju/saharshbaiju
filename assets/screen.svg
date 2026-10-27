@@ -441,7 +441,7 @@
 <text x="161.7" y="197.6"><tspan fill="#ff5c57">|</tspan></text>
 <text x="168.9" y="197.6"><tspan fill="#ff5c57">|</tspan></text>
 </g>
-<text x="176.2" y="197.6" xml:space="preserve"><tspan fill="#c9d1d9">]</tspan><tspan fill="#6c7386"> 30.6% Python</tspan></text>
+<text x="176.2" y="197.6" xml:space="preserve"><tspan fill="#c9d1d9">]</tspan><tspan fill="#6c7386"> 31.4% Python</tspan></text>
 <text x="10.0" y="211.8" xml:space="preserve"><tspan fill="#9aedfe">   1</tspan><tspan fill="#c9d1d9">[</tspan></text>
 <g style="transform-origin:46.1px 0;animation:fill 1.6s cubic-bezier(.2,.8,.2,1) 0.15s 1 backwards">
 <text x="46.1" y="211.8"><tspan fill="#5af78e">|</tspan></text>
@@ -459,9 +459,8 @@
 <text x="132.8" y="211.8"><tspan fill="#f3f99d">|</tspan></text>
 <text x="140.0" y="211.8"><tspan fill="#f3f99d">|</tspan></text>
 <text x="147.3" y="211.8"><tspan fill="#f3f99d">|</tspan></text>
-<text x="154.5" y="211.8"><tspan fill="#ff5c57">|</tspan></text>
 </g>
-<text x="176.2" y="211.8" xml:space="preserve"><tspan fill="#c9d1d9">]</tspan><tspan fill="#6c7386"> 27.5% TypeScript</tspan></text>
+<text x="176.2" y="211.8" xml:space="preserve"><tspan fill="#c9d1d9">]</tspan><tspan fill="#6c7386"> 26.1% TypeScript</tspan></text>
 <text x="10.0" y="225.9" xml:space="preserve"><tspan fill="#9aedfe">   2</tspan><tspan fill="#c9d1d9">[</tspan></text>
 <g style="transform-origin:46.1px 0;animation:fill 1.6s cubic-bezier(.2,.8,.2,1) 0.30s 1 backwards">
 <text x="46.1" y="225.9"><tspan fill="#5af78e">|</tspan></text>
@@ -473,9 +472,8 @@
 <text x="89.5" y="225.9"><tspan fill="#5af78e">|</tspan></text>
 <text x="96.7" y="225.9"><tspan fill="#5af78e">|</tspan></text>
 <text x="103.9" y="225.9"><tspan fill="#5af78e">|</tspan></text>
-<text x="111.1" y="225.9"><tspan fill="#f3f99d">|</tspan></text>
 </g>
-<text x="176.2" y="225.9" xml:space="preserve"><tspan fill="#c9d1d9">]</tspan><tspan fill="#6c7386"> 17.2% JavaScript</tspan></text>
+<text x="176.2" y="225.9" xml:space="preserve"><tspan fill="#c9d1d9">]</tspan><tspan fill="#6c7386"> 16.4% JavaScript</tspan></text>
 <text x="10.0" y="240.1" xml:space="preserve"><tspan fill="#9aedfe">   3</tspan><tspan fill="#c9d1d9">[</tspan></text>
 <g style="transform-origin:46.1px 0;animation:fill 1.6s cubic-bezier(.2,.8,.2,1) 0.45s 1 backwards">
 <text x="46.1" y="240.1"><tspan fill="#5af78e">|</tspan></text>
@@ -484,22 +482,23 @@
 <text x="67.8" y="240.1"><tspan fill="#5af78e">|</tspan></text>
 <text x="75.0" y="240.1"><tspan fill="#5af78e">|</tspan></text>
 </g>
-<text x="176.2" y="240.1" xml:space="preserve"><tspan fill="#c9d1d9">]</tspan><tspan fill="#6c7386">  8.4% CSS</tspan></text>
+<text x="176.2" y="240.1" xml:space="preserve"><tspan fill="#c9d1d9">]</tspan><tspan fill="#6c7386">  8.1% Kotlin</tspan></text>
 <text x="10.0" y="254.3" xml:space="preserve"><tspan fill="#9aedfe">   4</tspan><tspan fill="#c9d1d9">[</tspan></text>
 <g style="transform-origin:46.1px 0;animation:fill 1.6s cubic-bezier(.2,.8,.2,1) 0.60s 1 backwards">
 <text x="46.1" y="254.3"><tspan fill="#5af78e">|</tspan></text>
 <text x="53.3" y="254.3"><tspan fill="#5af78e">|</tspan></text>
 <text x="60.6" y="254.3"><tspan fill="#5af78e">|</tspan></text>
 <text x="67.8" y="254.3"><tspan fill="#5af78e">|</tspan></text>
+<text x="75.0" y="254.3"><tspan fill="#5af78e">|</tspan></text>
 </g>
-<text x="176.2" y="254.3" xml:space="preserve"><tspan fill="#c9d1d9">]</tspan><tspan fill="#6c7386">  7.4% Kotlin</tspan></text>
+<text x="176.2" y="254.3" xml:space="preserve"><tspan fill="#c9d1d9">]</tspan><tspan fill="#6c7386">  8.0% CSS</tspan></text>
 <text x="10.0" y="268.4" xml:space="preserve"><tspan fill="#9aedfe">   5</tspan><tspan fill="#c9d1d9">[</tspan></text>
 <g style="transform-origin:46.1px 0;animation:fill 1.6s cubic-bezier(.2,.8,.2,1) 0.75s 1 backwards">
 <text x="46.1" y="268.4"><tspan fill="#5af78e">|</tspan></text>
 <text x="53.3" y="268.4"><tspan fill="#5af78e">|</tspan></text>
 <text x="60.6" y="268.4"><tspan fill="#5af78e">|</tspan></text>
 </g>
-<text x="176.2" y="268.4" xml:space="preserve"><tspan fill="#c9d1d9">]</tspan><tspan fill="#6c7386">  5.0% Java</tspan></text>
+<text x="176.2" y="268.4" xml:space="preserve"><tspan fill="#c9d1d9">]</tspan><tspan fill="#6c7386">  4.8% Java</tspan></text>
 <text x="10.0" y="282.6" xml:space="preserve"><tspan fill="#9aedfe"> Mem</tspan><tspan fill="#c9d1d9">[</tspan></text>
 <g style="transform-origin:46.1px 0;animation:fill 1.6s cubic-bezier(.2,.8,.2,1) 1.00s 1 backwards">
 <text x="46.1" y="282.6"><tspan fill="#5af78e">|</tspan></text>
@@ -510,7 +509,7 @@
 <text x="82.2" y="282.6"><tspan fill="#5af78e">|</tspan></text>
 <text x="89.5" y="282.6"><tspan fill="#5af78e">|</tspan></text>
 </g>
-<text x="176.2" y="282.6" xml:space="preserve"><tspan fill="#c9d1d9">]</tspan><tspan fill="#6c7386"> 365/1000 contribs</tspan></text>
+<text x="176.2" y="282.6" xml:space="preserve"><tspan fill="#c9d1d9">]</tspan><tspan fill="#6c7386"> 393/1000 contribs</tspan></text>
 <text x="10.0" y="296.7" xml:space="preserve"><tspan fill="#9aedfe"> Swp</tspan><tspan fill="#c9d1d9">[</tspan></text>
 <g style="transform-origin:46.1px 0;animation:fill 1.6s cubic-bezier(.2,.8,.2,1) 1.20s 1 backwards">
 <text x="46.1" y="296.7"><tspan fill="#5af78e">|</tspan></text>
@@ -520,9 +519,9 @@
 <text x="75.0" y="296.7"><tspan fill="#5af78e">|</tspan></text>
 </g>
 <text x="176.2" y="296.7" xml:space="preserve"><tspan fill="#c9d1d9">]</tspan><tspan fill="#6c7386"> 14 pull requests</tspan></text>
-<text x="10" y="319.4" xml:space="preserve"><tspan fill="#6c7386">Tasks: </tspan>31 repos, 5 running</text>
-<text x="10" y="333.6" xml:space="preserve"><tspan fill="#6c7386">Load average: </tspan>0 5 365</text>
-<text x="10" y="347.7" xml:space="preserve"><tspan fill="#6c7386">Uptime: </tspan>465 days since 2025-07-18</text>
+<text x="10" y="319.4" xml:space="preserve"><tspan fill="#6c7386">Tasks: </tspan>32 repos, 6 running</text>
+<text x="10" y="333.6" xml:space="preserve"><tspan fill="#6c7386">Load average: </tspan>2 5 393</text>
+<text x="10" y="347.7" xml:space="preserve"><tspan fill="#6c7386">Uptime: </tspan>466 days since 2025-07-18</text>
 <g class="fr-g" style="animation-delay:0.0000s"><text x="328.4" y="148.1" xml:space="preserve"><tspan class="fg">                    </tspan><tspan class="bgreen">@</tspan><tspan class="blue">:::::::~~~</tspan><tspan class="green"># </tspan><tspan class="dim">.         &#x27;&#x27;   .</tspan></text>
 <text x="328.4" y="162.2" xml:space="preserve"><tspan class="fg">         </tspan><tspan class="dim">+      </tspan><tspan class="bgreen">@@@@@@@@</tspan><tspan class="blue">:::::~</tspan><tspan class="green">@@####         </tspan><tspan class="dim">.</tspan></text>
 <text x="328.4" y="176.4" xml:space="preserve"><tspan class="fg">             </tspan><tspan class="bgreen">@@@</tspan><tspan class="blue">::</tspan><tspan class="bgreen">@@</tspan><tspan class="blue">:</tspan><tspan class="bgreen">@@@</tspan><tspan class="blue">::::::~~</tspan><tspan class="green">@@##</tspan><tspan class="dgreen">%%%  </tspan><tspan class="dim">*</tspan></text>
@@ -2685,23 +2684,23 @@
 <text x="328.4" y="417.1" xml:space="preserve"><tspan class="fg">                     </tspan><tspan class="dim">.</tspan></text></g>
 <text x="10" y="452.5" xml:space="preserve"><tspan fill="#5af78e">saharshbaiju@github</tspan>:<tspan fill="#57c7ff">~</tspan>$ ps aux | head</text>
 <g class="row" style="animation-delay:0.00s"><text x="10.0" y="472.3" xml:space="preserve"><tspan class="fg">  PID USER       %CPU  %MEM     RSS STAT   TIME  COMMAND</tspan></text></g>
-<g class="row" style="animation-delay:0.12s"><text x="10.0" y="486.5" xml:space="preserve"><tspan class="green"> 1000 saharshba  99.4   0.1     282 R+      1d   saharshbaiju  </tspan><tspan class="cyan">[Python]</tspan></text></g>
-<g class="row" style="animation-delay:0.24s"><text x="10.0" y="500.6" xml:space="preserve"><tspan class="green"> 1007 saharshba  98.3   0.0     229 R+      3d   amVD  </tspan><tspan class="cyan">[Python]</tspan></text></g>
-<g class="row" style="animation-delay:0.36s"><text x="10.0" y="514.8" xml:space="preserve"><tspan class="green"> 1014 saharshba  93.9   0.0     218 R+     11d   portfolio</tspan></text></g>
-<g class="row" style="animation-delay:0.48s"><text x="10.0" y="529.0" xml:space="preserve"><tspan class="green"> 1021 saharshba  92.2   2.5   12566 R+     14d   O-1-icpc-tracker  </tspan><tspan class="cyan">[TypeScript]</tspan></text></g>
-<g class="row" style="animation-delay:0.60s"><text x="10.0" y="543.1" xml:space="preserve"><tspan class="green"> 1028 saharshba  92.2   2.4   12301 R+     14d   O-1-  </tspan><tspan class="cyan">[TypeScript]</tspan></text></g>
-<g class="row" style="animation-delay:0.72s"><text x="10.0" y="557.3" xml:space="preserve"><tspan class="dim2"> 1035 saharshba  55.6 100.0  502663 T      80d   openstreetmap-website  </tspan><tspan class="cyan">[Ruby]</tspan></text></g>
-<g class="row" style="animation-delay:0.84s"><text x="10.0" y="571.4" xml:space="preserve"><tspan class="dim2"> 1042 saharshba  52.2   0.0     113 T      86d   tish  </tspan><tspan class="cyan">[Kotlin] </tspan><tspan class="dim"># Glance at your timetable</tspan></text></g>
-<g class="row" style="animation-delay:0.96s"><text x="10.0" y="585.6" xml:space="preserve"><tspan class="dim2"> 1049 saharshba  51.7   0.2     898 T      87d   amDash  </tspan><tspan class="cyan">[TypeScript] </tspan><tspan class="dim"># dashboard for amfo</tspan></text></g>
+<g class="row" style="animation-delay:0.12s"><text x="10.0" y="486.5" xml:space="preserve"><tspan class="green"> 1000 saharshba 100.0   0.2     887 R+      0d   tandem  </tspan><tspan class="cyan">[Python] </tspan><tspan class="dim"># Use an Android phone a</tspan></text></g>
+<g class="row" style="animation-delay:0.24s"><text x="10.0" y="500.6" xml:space="preserve"><tspan class="green"> 1007 saharshba  99.4   0.1     282 R+      1d   saharshbaiju  </tspan><tspan class="cyan">[Python]</tspan></text></g>
+<g class="row" style="animation-delay:0.36s"><text x="10.0" y="514.8" xml:space="preserve"><tspan class="green"> 1014 saharshba  97.8   0.0     229 R+      4d   tandem-old  </tspan><tspan class="cyan">[Python]</tspan></text></g>
+<g class="row" style="animation-delay:0.48s"><text x="10.0" y="529.0" xml:space="preserve"><tspan class="green"> 1021 saharshba  93.3   0.0     218 R+     12d   portfolio</tspan></text></g>
+<g class="row" style="animation-delay:0.60s"><text x="10.0" y="543.1" xml:space="preserve"><tspan class="fg"> 1028 saharshba  91.7   2.5   12566 S      15d   O-1-icpc-tracker  </tspan><tspan class="cyan">[TypeScript]</tspan></text></g>
+<g class="row" style="animation-delay:0.72s"><text x="10.0" y="557.3" xml:space="preserve"><tspan class="fg"> 1035 saharshba  91.7   2.4   12301 S      15d   O-1-  </tspan><tspan class="cyan">[TypeScript]</tspan></text></g>
+<g class="row" style="animation-delay:0.84s"><text x="10.0" y="571.4" xml:space="preserve"><tspan class="dim2"> 1042 saharshba  55.0 100.0  502663 T      81d   openstreetmap-website  </tspan><tspan class="cyan">[Ruby]</tspan></text></g>
+<g class="row" style="animation-delay:0.96s"><text x="10.0" y="585.6" xml:space="preserve"><tspan class="dim2"> 1049 saharshba  51.7   0.0     113 T      87d   tish  </tspan><tspan class="cyan">[Kotlin] </tspan><tspan class="dim"># Glance at your timetable</tspan></text></g>
 <g class="row" style="animation-delay:1.08s"></g>
-<g class="row" style="animation-delay:1.20s"><text x="10.0" y="613.9" xml:space="preserve"><tspan class="dim2">$ contributions --year 2026     365 total · 217 commits · 14 PRs · streak 0d (best 5d)</tspan></text></g>
+<g class="row" style="animation-delay:1.20s"><text x="10.0" y="613.9" xml:space="preserve"><tspan class="dim2">$ contributions --year 2026     393 total · 244 commits · 14 PRs · streak 2d (best 5d)</tspan></text></g>
 <g class="row" style="animation-delay:1.32s"><text x="10.0" y="628.1" xml:space="preserve"><tspan class="fg">     </tspan><tspan class="dim2">Jan  Feb Mar Apr  May Jun Jul  Aug Sep Oct  Nov Dec</tspan></text></g>
 <g class="row" style="animation-delay:1.44s"><text x="10.0" y="642.2" xml:space="preserve"><tspan class="fg">     </tspan><tspan class="dgreen">■■</tspan><tspan class="dim">·······</tspan><tspan class="dgreen">■■</tspan><tspan class="dim">···</tspan><tspan class="dgreen">■■</tspan><tspan class="dim">·</tspan><tspan class="dgreen">■</tspan><tspan class="dim">·</tspan><tspan class="dgreen">■</tspan><tspan class="dim">········</tspan><tspan class="dgreen">■</tspan><tspan class="dim">······</tspan><tspan class="dgreen">■</tspan><tspan class="dim">····</tspan><tspan class="dgreen">■</tspan><tspan class="dim">··</tspan></text></g>
-<g class="row" style="animation-delay:1.56s"><text x="10.0" y="656.4" xml:space="preserve"><tspan class="dim2">Mon  </tspan><tspan class="dim">·</tspan><tspan class="dgreen">■</tspan><tspan class="dim">··</tspan><tspan class="dgreen">■</tspan><tspan class="dim">········</tspan><tspan class="dgreen">■■</tspan><tspan class="dim">····</tspan><tspan class="dgreen">■</tspan><tspan class="dim">···</tspan><tspan class="dgreen">■</tspan><tspan class="dim">·</tspan><tspan class="green">■■</tspan><tspan class="dgreen">■</tspan><tspan class="bgreen">■</tspan><tspan class="dim">·</tspan><tspan class="green">■</tspan><tspan class="dgreen">■</tspan><tspan class="dim">·········</tspan><tspan class="dgreen">■■</tspan></text></g>
+<g class="row" style="animation-delay:1.56s"><text x="10.0" y="656.4" xml:space="preserve"><tspan class="dim2">Mon  </tspan><tspan class="dim">·</tspan><tspan class="dgreen">■</tspan><tspan class="dim">··</tspan><tspan class="dgreen">■</tspan><tspan class="dim">········</tspan><tspan class="dgreen">■■</tspan><tspan class="dim">····</tspan><tspan class="dgreen">■</tspan><tspan class="dim">···</tspan><tspan class="dgreen">■</tspan><tspan class="dim">·</tspan><tspan class="green">■■</tspan><tspan class="dgreen">■</tspan><tspan class="bgreen">■</tspan><tspan class="dim">·</tspan><tspan class="green">■</tspan><tspan class="dgreen">■</tspan><tspan class="dim">·········</tspan><tspan class="green">■■</tspan></text></g>
 <g class="row" style="animation-delay:1.68s"><text x="10.0" y="670.6" xml:space="preserve"><tspan class="fg">     </tspan><tspan class="dim">··</tspan><tspan class="dgreen">■</tspan><tspan class="dim">·</tspan><tspan class="green">■</tspan><tspan class="dim">·</tspan><tspan class="dgreen">■</tspan><tspan class="dim">··</tspan><tspan class="dgreen">■</tspan><tspan class="dim">·</tspan><tspan class="dgreen">■</tspan><tspan class="dim">··</tspan><tspan class="dgreen">■</tspan><tspan class="dim">····</tspan><tspan class="bwhite">■</tspan><tspan class="dim">···</tspan><tspan class="dgreen">■</tspan><tspan class="dim">·</tspan><tspan class="dgreen">■</tspan><tspan class="dim">··</tspan><tspan class="dgreen">■■</tspan><tspan class="dim">·····</tspan><tspan class="green">■</tspan><tspan class="dim">·······</tspan></text></g>
 <g class="row" style="animation-delay:1.80s"><text x="10.0" y="684.7" xml:space="preserve"><tspan class="dim2">Wed  </tspan><tspan class="dim">··</tspan><tspan class="green">■</tspan><tspan class="dgreen">■</tspan><tspan class="dim">·</tspan><tspan class="bgreen">■</tspan><tspan class="dim">·········</tspan><tspan class="dgreen">■</tspan><tspan class="dim">···</tspan><tspan class="green">■</tspan><tspan class="dim">···</tspan><tspan class="dgreen">■</tspan><tspan class="dim">··</tspan><tspan class="dgreen">■</tspan><tspan class="dim">··</tspan><tspan class="dgreen">■</tspan><tspan class="dim">·····</tspan><tspan class="dgreen">■</tspan><tspan class="green">■</tspan><tspan class="dim">···</tspan><tspan class="dgreen">■</tspan><tspan class="dim">··</tspan></text></g>
-<g class="row" style="animation-delay:1.92s"><text x="10.0" y="698.9" xml:space="preserve"><tspan class="fg">     </tspan><tspan class="dgreen">■</tspan><tspan class="dim">··</tspan><tspan class="dgreen">■■</tspan><tspan class="green">■</tspan><tspan class="dim">·</tspan><tspan class="dgreen">■</tspan><tspan class="dim">·</tspan><tspan class="dgreen">■</tspan><tspan class="dim">····</tspan><tspan class="green">■■</tspan><tspan class="dim">·</tspan><tspan class="dgreen">■■■</tspan><tspan class="dim">···</tspan><tspan class="dgreen">■■</tspan><tspan class="dim">·</tspan><tspan class="dgreen">■</tspan><tspan class="dim">·</tspan><tspan class="dgreen">■■</tspan><tspan class="dim">·····</tspan><tspan class="dgreen">■</tspan><tspan class="dim">······</tspan><tspan class="yellow">▣</tspan></text></g>
-<g class="row" style="animation-delay:2.04s"><text x="10.0" y="713.0" xml:space="preserve"><tspan class="dim2">Fri  </tspan><tspan class="dim">·</tspan><tspan class="dgreen">■■</tspan><tspan class="dim">··</tspan><tspan class="dgreen">■■■</tspan><tspan class="dim">·</tspan><tspan class="dgreen">■■</tspan><tspan class="dim">··</tspan><tspan class="dgreen">■</tspan><tspan class="dim">·</tspan><tspan class="green">■</tspan><tspan class="dgreen">■</tspan><tspan class="dim">·</tspan><tspan class="dgreen">■</tspan><tspan class="dim">····</tspan><tspan class="dgreen">■</tspan><tspan class="dim">·</tspan><tspan class="green">■</tspan><tspan class="dim">·</tspan><tspan class="dgreen">■■■■</tspan><tspan class="dim">·</tspan><tspan class="dgreen">■</tspan><tspan class="dim">··</tspan><tspan class="dgreen">■■</tspan><tspan class="dim">·····</tspan></text></g>
+<g class="row" style="animation-delay:1.92s"><text x="10.0" y="698.9" xml:space="preserve"><tspan class="fg">     </tspan><tspan class="dgreen">■</tspan><tspan class="dim">··</tspan><tspan class="dgreen">■■</tspan><tspan class="green">■</tspan><tspan class="dim">·</tspan><tspan class="dgreen">■</tspan><tspan class="dim">·</tspan><tspan class="dgreen">■</tspan><tspan class="dim">····</tspan><tspan class="green">■■</tspan><tspan class="dim">·</tspan><tspan class="dgreen">■■■</tspan><tspan class="dim">···</tspan><tspan class="dgreen">■■</tspan><tspan class="dim">·</tspan><tspan class="dgreen">■</tspan><tspan class="dim">·</tspan><tspan class="dgreen">■■</tspan><tspan class="dim">·····</tspan><tspan class="dgreen">■</tspan><tspan class="dim">······</tspan><tspan class="dgreen">■</tspan></text></g>
+<g class="row" style="animation-delay:2.04s"><text x="10.0" y="713.0" xml:space="preserve"><tspan class="dim2">Fri  </tspan><tspan class="dim">·</tspan><tspan class="dgreen">■■</tspan><tspan class="dim">··</tspan><tspan class="dgreen">■■■</tspan><tspan class="dim">·</tspan><tspan class="dgreen">■■</tspan><tspan class="dim">··</tspan><tspan class="dgreen">■</tspan><tspan class="dim">·</tspan><tspan class="green">■</tspan><tspan class="dgreen">■</tspan><tspan class="dim">·</tspan><tspan class="dgreen">■</tspan><tspan class="dim">····</tspan><tspan class="dgreen">■</tspan><tspan class="dim">·</tspan><tspan class="green">■</tspan><tspan class="dim">·</tspan><tspan class="dgreen">■■■■</tspan><tspan class="dim">·</tspan><tspan class="dgreen">■</tspan><tspan class="dim">··</tspan><tspan class="dgreen">■■</tspan><tspan class="dim">·····</tspan><tspan class="yellow">▣</tspan></text></g>
 <g class="row" style="animation-delay:2.16s"><text x="10.0" y="727.2" xml:space="preserve"><tspan class="fg">     </tspan><tspan class="dgreen">■</tspan><tspan class="dim">····</tspan><tspan class="dgreen">■■■■■■</tspan><tspan class="dim">··</tspan><tspan class="green">■</tspan><tspan class="dim">··</tspan><tspan class="dgreen">■■</tspan><tspan class="dim">·······</tspan><tspan class="green">■</tspan><tspan class="dgreen">■■</tspan><tspan class="dim">·······</tspan><tspan class="dgreen">■</tspan><tspan class="dim">····</tspan><tspan class="dgreen">■</tspan><tspan class="dim">·</tspan></text></g>
 <g class="row" style="animation-delay:2.28s"><text x="10.0" y="741.4" xml:space="preserve"><tspan class="fg">                                                             </tspan><tspan class="dim2">less </tspan><tspan class="dim">·</tspan><tspan class="dgreen">■</tspan><tspan class="green">■</tspan><tspan class="bgreen">■</tspan><tspan class="bwhite">■  </tspan><tspan class="dim2">more   ▣ today</tspan></text></g>
 <g class="fr-b" style="animation-delay:0.0000s"><text x="10.0" y="783.8" xml:space="preserve"><tspan class="fg">                                     </tspan><tspan class="dred">..,,,,,,,,,,,,......</tspan></text>
@@ -4365,5 +4364,5 @@
 <text x="10.0" y="982.1" xml:space="preserve"><tspan class="fg">                                      </tspan><tspan class="dred">,</tspan><tspan class="red">--</tspan><tspan class="byellow">##</tspan><tspan class="yellow">*        </tspan><tspan class="orange">~~~</tspan><tspan class="dred">,,</tspan></text>
 <text x="10.0" y="996.2" xml:space="preserve"><tspan class="fg">                                        </tspan><tspan class="dred">,</tspan><tspan class="red">:---</tspan><tspan class="yellow">++++</tspan><tspan class="orange">==</tspan><tspan class="red">:::</tspan><tspan class="dred">,.</tspan></text>
 <text x="10.0" y="1010.4" xml:space="preserve"><tspan class="fg">                                           </tspan><tspan class="dred">.,,</tspan><tspan class="red">::::</tspan><tspan class="dred">,,</tspan></text></g>
-<text x="10.0" y="1109.5" xml:space="preserve"><tspan class="dim">rendered 2026-10-26 08:53 UTC · refreshed daily · no javascript, just svg</tspan></text>
+<text x="10.0" y="1109.5" xml:space="preserve"><tspan class="dim">rendered 2026-10-27 08:58 UTC · refreshed daily · no javascript, just svg</tspan></text>
 </svg>
